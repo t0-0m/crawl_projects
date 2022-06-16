@@ -1,0 +1,26 @@
+詳細ページ
+* 詳細ページへのリンク
+//h3[@class="heightLine-2"]/a
+
+* 次のページへのリンク
+(//a[contains(text(), "次へ")])[1]
+
+
+詳細ページ
+タイトル
+//h3[@itemprop="name"]/text()
+
+著者
+//div[@class="infobox ml10 mt10"]/ul/li[1]/a/text()
+
+価格
+//span[@class="sale_price"]/text()
+
+出版社
+//a[contains(@href, "publisher-key")]/text()
+
+サイズ、ページ数
+//div[@class="infbox dotted ml10 mt05 pt05"]/ul/li/text()
+
+商品番号
+//li[@itemprop="identifier"]/text()

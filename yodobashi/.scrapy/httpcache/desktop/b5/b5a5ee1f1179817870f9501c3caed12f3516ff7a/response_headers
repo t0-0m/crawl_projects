@@ -1,0 +1,17 @@
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1
+X-Content-Type-Options: nosniff
+Content-Security-Policy: upgrade-insecure-requests
+Content-Security-Policy-Report-Only: connect-src https:; report-uri https://www.yodobashi.com/ws/api/ap/csp/report
+Last-Modified: Thu, 20 Aug 2009 07:34:05 GMT
+Etag: "b812c1-0-4718dc6b63540"
+Accept-Ranges: bytes
+Vary: Accept-Encoding,User-Agent
+Content-Encoding: gzip
+X-Cnection: close
+Content-Type: text/plain; charset=UTF-8
+Date: Fri, 03 Jun 2022 04:44:21 GMT
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: edge; dur=16
+Server-Timing: origin; dur=9

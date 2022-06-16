@@ -1,0 +1,13 @@
+setup.py
+lawson/__init__.py
+lawson/items.py
+lawson/middlewares.py
+lawson/pipelines.py
+lawson/settings.py
+lawson/spiders/__init__.py
+lawson/spiders/lawson_foods.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt

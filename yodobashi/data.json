@@ -1,0 +1,487 @@
+[
+    {
+        "maker": "富士通 FUJITSU",
+        "name": "FMVF70F3BC [デスクトップパソコン/FMV/FHシリーズ/23.8型ワイド/Ryzen7 5700U/メモリ 16GB/SSD 512GB＋HDD 1TB/BDXLドライブ/Windows 11 Home 64ビット/Office Home and Business 2021/ブラック/ヨドバシカメラ限定モデル]",
+        "price": "￥219,800"
+    },
+    {
+        "maker": "ASUS エイスース",
+        "name": "D500SC-I511400A [デスクトップパソコン ASUS ExpertCenter D5 SFF D500SC Core i5-11400/メモリ 16GB/SSD 512GB+HDD 1TB/Windows 11 Home 64ビット/WPS/ブラック]",
+        "price": "￥110,010"
+    },
+    {
+        "maker": "NEC エヌイーシー",
+        "name": "PC-A2335CAW [デスクトップパソコン 23.8型/Core i3-10110U/メモリ 8GB/SSD 512GB/Windows 11 Home/Microsoft Office Home ＆ Business 2021/ホワイト]",
+        "price": "￥164,780"
+    },
+    {
+        "maker": "富士通 FUJITSU",
+        "name": "FMVF60F3WC [デスクトップパソコン/FMV/FHシリーズ/23.8型ワイド/Ryzen5 5500U/メモリ 16GB/SSD 256GB＋HDD 1TB/DVDドライブ/Windows 11 Home 64ビット/Office Home and Business 2021/ホワイト/ヨドバシカメラ限定モデル]",
+        "price": "￥184,800"
+    },
+    {
+        "maker": "富士通 FUJITSU",
+        "name": "FMVF60F3W [デスクトップパソコン/FMV/FHシリーズ/23.8型ワイド/Ryzen5 5500U/メモリ 8GB/SSD 512GB/DVDドライブ/Windows 11 Home 64ビット/Office Home and Business 2021/ホワイト]",
+        "price": "￥154,280"
+    },
+    {
+        "maker": "ASUS エイスース",
+        "name": "D500SC-G6405TA [デスクトップパソコン ASUS ExpertCenter D5 SFF D500SC Gold G6405/メモリ 8GB/SSD 256GB+HDD 1TB/Windows 11 Home 64ビット/WPS/ブラック]",
+        "price": "￥79,800"
+    },
+    {
+        "maker": "NEC エヌイーシー",
+        "name": "PC-A2797DAB [デスクトップパソコン 27型/Ryzen 7 5800U/メモリ 16GB/SSD 1TB/Windows 11 Home/Office Home ＆ Business 2021/ブラック]",
+        "price": "￥285,780"
+    },
+    {
+        "maker": "NEC エヌイーシー",
+        "name": "PC-A2797CAB [デスクトップパソコン 27.0型/Core i7-10510U/メモリ 16GB/SSD 256GB + HDD 4TB/Windows 11 Home/Microsoft Office Home ＆ Business 2021/ブラック]",
+        "price": "￥236,280"
+    },
+    {
+        "maker": "DELL デル",
+        "name": "DI50-CHHB [Inspiron 3891 デスクトップ/Core i5-11400/メモリ 8GB/SSD 256GB＋HDD 1TB/Windows 11 Home/Office Home ＆ Business 2021/ブラック]",
+        "price": "￥124,800"
+    },
+    {
+        "maker": "ガレリア GALLERIA",
+        "name": "XA737-1100-R21 [ゲーミングデスクトップパソコン ガレリア XA737-1100 12700/Core i7-12700/RTX 3070/メモリ 16GB/SSD 1TB/Windows 11 Home]",
+        "price": "￥279,800"
+    },
+    {
+        "maker": "HP",
+        "name": "52M18PA-AAAA [HP Pavilion Desktop TP01-2000 G1モデル Ryzen 7 5700G/メモリ 16GB/SSD 256GB＋HDD 1TB/Windows 11 Home/ナチュラルシルバー]",
+        "price": "￥121,000"
+    },
+    {
+        "maker": "HP",
+        "name": "52M18PA-AAAB [HP Pavilion Desktop TP01-2000 G1モデル Ryzen 7 5700G/メモリ 16GB/SSD 256GB＋HDD 1TB/Windows 11 Home/Office Home ＆ Business 2019/ナチュラルシルバー]",
+        "price": "￥143,000"
+    },
+    {
+        "maker": "ミニズフォーラム MINISFORUM",
+        "name": "HX90-32/512-W10Pro（5900HX） [小型デスクトップパソコン/AMD Ryzen 9 5900HX/メモリ 32GB/ストレージ M.2 2280 SSD NVMe 512GB/windows 10 Pro 64bit]",
+        "price": "￥122,990"
+    },
+    {
+        "maker": "富士通 FUJITSU",
+        "name": "FMVF90F3B [デスクトップパソコン/FMV/FHシリーズ/27.0型ワイド/Core i7-1165G7/メモリ 16GB/SSD 256GB＋HDD 4TB/BDXLドライブ/Windows 11 Home 64ビット/Office Home and Business 2021/ブラック]",
+        "price": "￥242,280"
+    },
+    {
+        "maker": "DELL デル",
+        "name": "FI779YD-BWHBSC [Inspiron 27 7000 フレームレスデスクトップ/第11世代 インテル Core i7-1165G7 プロセッサー/メモリ 8GB/SSD 512GB＋HDD 1TB/Windows 11 Home/Office Home＆Business 2021/シルバー/ヨドバシカメラ限定モデル/Dellデータ移行サービス付帯モデル]",
+        "price": "￥194,800"
+    },
+    {
+        "maker": "ガレリア GALLERIA",
+        "name": "XA736-1100-R21 [ゲーミングデスクトップパソコン ガレリア XA736-1100 12700/Core i7-12700/RTX 3060/メモリ 16GB/SSD 1TB/Windows 11 Home]",
+        "price": "￥239,800"
+    },
+    {
+        "maker": "マウスコンピューター mouse computer",
+        "name": "PCMI114P21J [Windows11 Pro搭載デスクトップパソコン/Corei5-11400/メモリ 8GB/SSD 512GB （NVMe）/インテル UHD グラフィックス 730/DVDスーパーマルチドライブ/Windows11 Pro 64bit]",
+        "price": "￥124,800"
+    },
+    {
+        "maker": "レノボ･ジャパン Lenovo",
+        "name": "F0G10049JP [デスクトップノートパソコン IdeaCentre AIO360/23.8型/AMD Ryzen 7 5700U プロセッサー/メモリ 8GB/SSD 512GB（PCIe NVMe/M.2）/Windows 11 Home 64bit（日本語版）/Microsoft Office Home ＆ Business 2021/ホワイト]",
+        "price": "￥144,100"
+    },
+    {
+        "maker": "ミニズフォーラム MINISFORUM",
+        "name": "U820-16/512-W10pro（8279U） [小型デスクトップパソコン/Intel Core i5-8279U/メモリ 16GB/ストレージ M.2 SSD 512GB/Windows 10 Pro 64bit]",
+        "price": "￥76,640"
+    },
+    {
+        "maker": "DELL デル",
+        "name": "FI537YD-BWHBSC [Inspiron 24 5000 フレームレスデスクトップ/一体型デスクトップ/第11世代 インテル Core i3-1115G4 プロセッサー/メモリ 8GB/SSD 256GB/Windows 11 Home/Office Home＆Business 2021/シルバー/ヨドバシカメラ限定モデル/Dellデータ移行サービス付帯モデル]",
+        "price": "￥134,800"
+    },
+    {
+        "maker": "ミニズフォーラム MINISFORUM",
+        "name": "HX90-16/512-W10Pro（5900HX） [小型デスクトップパソコン/AMD Ryzen 9 5900HX/メモリ 16GB/ストレージ M.2 2280 SSD NVMe 512GB/windows 10 Pro 64bit]",
+        "price": "￥110,000"
+    },
+    {
+        "maker": "DELL デル",
+        "name": "DI50-CHL [Inspiron 3891 デスクトップ/Core i5-11400/メモリ 8GB/SSD 256GB＋HDD 1TB/Windows 11 Home/ブラック]",
+        "price": "￥104,800"
+    },
+    {
+        "maker": "NEC エヌイーシー",
+        "name": "PC-A2377CAW [デスクトップパソコン 23.8型/Core i7-10510U/メモリ 8GB/SSD 1TB/Windows 11 Home/Microsoft Office Home ＆ Business 2021/ホワイト]",
+        "price": "￥230,780"
+    },
+    {
+        "maker": "レノボ･ジャパン Lenovo",
+        "name": "F0G10048JP [デスクトップノートパソコン IdeaCentre AIO360/23.8型/AMD Ryzen 3 5300U プロセッサー/メモリ 8GB/SSD 512GB（PCIe NVMe/M.2）/Windows 11 Home 64bit（日本語版）/Microsoft Office Home ＆ Business 2021/ホワイト]",
+        "price": "￥124,300"
+    },
+    {
+        "maker": "ミニズフォーラム MINISFORUM",
+        "name": "HM50-16/512-W10Pro（4500U） [小型デスクトップパソコン/CPU：AMD Ryzen 5 4500U/メモリ：16GB/ストレージ：M.2 SSD NVMe 512GB/windows 10 Pro 64bit]",
+        "price": "￥80,300"
+    },
+    {
+        "maker": "富士通 FUJITSU",
+        "name": "FMVF70F3W [デスクトップパソコン/FMV/FHシリーズ/23.8型ワイド/Ryzen7 5700U/メモリ 8GB/SSD 512GB/DVDドライブ/Windows 11 Home 64ビット/Office Home and Business 2021/ホワイト]",
+        "price": "￥181,780"
+    },
+    {
+        "maker": "ミニズフォーラム MINISFORUM",
+        "name": "JB95-8/128-W10Pro （N5095） [超小型デスクトップパソコン/Intel Celeron N5095/メモリ 8GB/SSD 128GB/Windows 10 Pro搭載]",
+        "price": "￥34,770"
+    },
+    {
+        "maker": "レノボ･ジャパン Lenovo",
+        "name": "90RW002QJP [ゲーミングデスクトップパソコン IdeaCentre Gaming 560/AMD Ryzen5 5600Gプロセッサー/NVIDIA GeForce GTX 1660 SUPER/SSD 512GB/メモリ 8GB/Windows 10 Home 64bit/Microsoft Office Home ＆ Business 2019/ブラック]",
+        "price": "￥140,540"
+    },
+    {
+        "maker": "DELL デル",
+        "name": "FI537YD-BWHBBC [Inspiron 24 5000 フレームレスデスクトップ/一体型デスクトップ/第11世代 インテル Core i3-1115G4 プロセッサー/メモリ 8GB/SSD 256GB/Windows 11 Home/Office Home＆Business 2021/ブラック/ヨドバシカメラ限定モデル/Dellデータ移行サービス付帯モデル]",
+        "price": "￥134,800"
+    },
+    {
+        "maker": "ミニズフォーラム MINISFORUM",
+        "name": "UM350-8/256-W10Pro（3550H） [小型デスクトップパソコン/Ryzen 5 3550H/Radeon RX Vega 8 Graphics/メモリ 8GB/SSD 256GB/Windows 10 Pro]",
+        "price": "￥50,080"
+    },
+    {
+        "maker": "富士通 FUJITSU",
+        "name": "FMVF77F3B [デスクトップパソコン/FMV/FHシリーズ/23.8型ワイド/Core i7-1165G7/メモリ 8GB/SSD 256GB＋HDD 1TB/BDXLドライブ/Windows 11 Home 64ビット/Office Home and Business 2021/ブラック]",
+        "price": "￥214,780"
+    },
+    {
+        "maker": "レノボ･ジャパン Lenovo",
+        "name": "F0FY0025JP [IdeaCentre AIO360/27型/AMD Ryzen 7 5700U プロセッサー/メモリ16GB/SSD512GB（PCIe NVMe/M.2）/Windows 11 Home 64bit（日本語版）/Microsoft Office Home ＆ Business 2021/ホワイト]",
+        "price": "￥155,100"
+    },
+    {
+        "maker": "マウスコンピューター mouse computer",
+        "name": "PCMIDV117G165P22C [デスクトップパソコン Core i7-11700/メモリ 16GB/SSD 1TB/HDD 2TB/GTX 1650/Windows 11 Pro/ブラック]",
+        "price": "￥249,800"
+    },
+    {
+        "maker": "ミニズフォーラム MINISFORUM",
+        "name": "N40-4/64-W10Pro（N4020） [小型デスクトップパソコン/CPU：Intel Celeron Processor N4020/メモリ：4GB/ストレージ：eMMC 64GB/Windows 10 Pro 64bit]",
+        "price": "￥21,780"
+    },
+    {
+        "maker": "HP",
+        "name": "52P36PA-AAAA [HP Pavilion Desktop TP01-2000 G1モデル Ryzen 5 5600G/メモリ 8GB/SSD 256GB＋HDD 1TB/Windows 11 Home/ナチュラルシルバー]",
+        "price": "￥99,000"
+    },
+    {
+        "maker": "ミニズフォーラム MINISFORUM",
+        "name": "GK41-8/128-W10Pro（J4125） [小型デスクトップパソコン/CPU：Intel（R） Celeron（R） Processor J4125/メモリ：8GB/ストレージ：M.2 SSD 128GB/Windows 10 Pro 64bit]",
+        "price": "￥31,270"
+    },
+    {
+        "maker": "Acer エイサー",
+        "name": "RN96-F58Y [Revo Box/Core i5-1135G7/メモリ 8GB/512GB SSD/Windows 11 Home（64bit）/ブラック]",
+        "price": "￥99,800"
+    },
+    {
+        "maker": "マウスコンピューター mouse computer",
+        "name": "PCMI117P21J-B [Windows11 Pro搭載デスクトップパソコン/Corei7-11700/メモリ 8GB/SSD 512GB （NVMe）/インテル UHD グラフィックス 750/DVDスーパーマルチドライブ/Windows11 Pro 64bit/Office Home ＆ Business 2021]",
+        "price": "￥184,800"
+    },
+    {
+        "maker": "HP",
+        "name": "52M17PA-AAAB [HP Pavilion Desktop TP01-2000 G1モデル Ryzen 3 5300G/メモリ 8GB/SSD 256GB＋HDD 1TB/Windows 11 Home/Office Home ＆ Business 2019/ナチュラルシルバー]",
+        "price": "￥110,000"
+    },
+    {
+        "maker": "HP",
+        "name": "52P36PA-AAAB [HP Pavilion Desktop TP01-2000 G1モデル Ryzen 5 5600G/メモリ 8GB/SSD 256GB＋HDD 1TB/Windows 11 Home/Office Home ＆ Business 2019/ナチュラルシルバー]",
+        "price": "￥120,880"
+    },
+    {
+        "maker": "NEC エヌイーシー",
+        "name": "PC-A2377DAB [デスクトップパソコン 23.8型/Ryzen 7 5700U/メモリ 16GB/SSD 1TB/Windows 11 Home/Office Home ＆ Business 2021/ブラック]",
+        "price": "￥274,780"
+    },
+    {
+        "maker": "マウスコンピューター mouse computer",
+        "name": "PCMI117P21J [Windows11 Pro搭載デスクトップパソコン/Corei7-11700/メモリ 8GB/SSD 512GB （NVMe）/インテル UHD グラフィックス 750/DVDスーパーマルチドライブ/Windows11 Pro 64bit]",
+        "price": "￥154,800"
+    },
+    {
+        "maker": "ASUS エイスース",
+        "name": "PN41-S1-BC306AD [デスクトップミニパソコン ASUS Mini PC PN41-S1/Celeron N5100/メモリ 4GB/eMMC 64GB/Windows 11 pro/ブラック]",
+        "price": "￥46,800"
+    },
+    {
+        "maker": "ASUS エイスース",
+        "name": "PB62-B7275AH [デスクトップミニパソコン ASUS Mini PC PB62/Core i7-11700/メモリ 16GB/SSD 512GB/Windows 11 home/ブラック]",
+        "price": "￥139,800"
+    },
+    {
+        "maker": "NEC エヌイーシー",
+        "name": "PC-A2365DAB [デスクトップパソコン 23.8型/Ryzen 7 5700U/メモリ 8GB/SSD 512GB/Windows 11 Home/Office Home ＆ Business 2021/ブラック]",
+        "price": "￥230,780"
+    },
+    {
+        "maker": "ミニズフォーラム MINISFORUM",
+        "name": "HM90-16/512-W10Pro（4900H） [小型デスクトップパソコン Ryzen 9 4900H/メモリ 16GB/SSD 512GB/Windows 10 Pro]",
+        "price": "￥96,680"
+    },
+    {
+        "maker": "マウスコンピューター mouse computer",
+        "name": "PCMI114P21J-B [Windows11 Pro搭載デスクトップパソコン/Corei5-11400/メモリ 8GB/SSD 512GB （NVMe）/インテル UHD グラフィックス 730/DVDスーパーマルチドライブ/Windows11 Pro 64bit/Office Home ＆ Business 2021]",
+        "price": "￥154,800"
+    },
+    {
+        "maker": "NEC エヌイーシー",
+        "name": "PC-A2335DAB [デスクトップパソコン 23.8型/Ryzen 3 5300U/メモリ 8GB/SSD 512GB/Windows 11 Home/Office Home ＆ Business 2021/ブラック]",
+        "price": "￥203,280"
+    },
+    {
+        "maker": "HP",
+        "name": "52M17PA-AAAA [HP Pavilion Desktop TP01-2000 G1モデル Ryzen 3 5300G/メモリ 8GB/SSD 256GB＋HDD 1TB/Windows 11 Home/ナチュラルシルバー]",
+        "price": "￥88,000"
+    },
+    {
+        "maker": "ASUS エイスース",
+        "name": "VC66-C2B7205AN [デスクトップミニパソコン ASUS Mini PC VC66-C2/Core i7-10700/メモリ 16GB/SSD 512GB/Windows 11 Home/ブラック]",
+        "price": "￥159,800"
+    },
+    {
+        "maker": "ミニズフォーラム MINISFORUM",
+        "name": "TL50-16/512-W10Pro（1135G7） [超小型デスクトップパソコン/Intel Core i5-1135G7/メモリ 16GB/SSD 512GB/Windows 10 Pro搭載]",
+        "price": "￥87,780"
+    },
+    {
+        "maker": "ASUS エイスース",
+        "name": "G15DK-R75R3070W11 [ROG Strix GA15 (G15DK) ゲーミングデスクトップパソコン/Ryzen 7 5800X/メモリ 16GB/SSD 512GB/RTX3070/Windows 11 Home/ブラック]",
+        "price": "￥269,800"
+    },
+    {
+        "maker": "ASUS エイスース",
+        "name": "A5401WR-R75700LU [ASUS Zen AiO 23.8型/Ryzen7 5700U/メモリ 16GB/SSD 512GB/Windows 11 Home/Office Home and Business 2021/ホワイト]",
+        "price": "￥169,800"
+    },
+    {
+        "maker": "ASUS エイスース",
+        "name": "PB62-B3273AH [デスクトップミニパソコン ASUS Mini PC PB62/Core i3-10105/メモリ 8GB/SSD 256GB/Windows 11 home/ブラック]",
+        "price": "￥88,800"
+    },
+    {
+        "maker": "ASUS エイスース",
+        "name": "CHROMEBOX4-GC018UN [Chromebox デスクトップPC Celeron 5205U/メモリ 4GB/eMMC 64GB /Wi-Fi 6/Vesa Mount/Chrome OS]",
+        "price": "￥48,790"
+    },
+    {
+        "maker": "レノボ･ジャパン Lenovo",
+        "name": "F0FY0024JP [IdeaCentre AIO360/27型/AMD Ryzen 7 5700U プロセッサー/メモリ16GB/SSD512GB（PCIe NVMe/M.2）/Windows 11 Home 64bit（日本語版）/Microsoft Office Home ＆ Business 2021/ブラック]",
+        "price": "￥151,800"
+    },
+    {
+        "maker": "【まとめ買い割引】デスクトップパソコン＋セキュリティソフトセット [富士通 FUJITSU FMVF70F3BC デスクトップパソコン/FMV/FHシリーズ/23.8型ワイド/Ryzen7 5700U/メモリ 16GB/SSD 512GB＋HDD 1TB/BDXLドライブ/ブラック＋ウイルスバスター クラウド 3年版]",
+        "name": "【まとめ買い割引】デスクトップパソコン＋セキュリティソフトセット [富士通 FUJITSU FMVF70F3BC デスクトップパソコン/FMV/FHシリーズ/23.8型ワイド/Ryzen7 5700U/メモリ 16GB/SSD 512GB＋HDD 1TB/BDXLドライブ/ブラック＋ウイルスバスター クラウド 3年版]",
+        "price": "￥232,210"
+    },
+    {
+        "maker": "MSI エムエスアイ",
+        "name": "AEGIS-TI5-12VTE-046JP [ゲーミングデスクトップパソコン/Core i7-12700K/RTX 3070Ti/メモリ 32GB/SSD 1TB＋HDD 1TB/Windows 11 Pro]",
+        "price": "￥427,270"
+    },
+    {
+        "maker": "マウスコンピューター mouse computer",
+        "name": "PCMI117G306H22C [デスクトップパソコン Core i7-11700/メモリ 16GB/SSD 512GB/HDD 2TB/RTX 3060/Windows 11 Home/ブラック]",
+        "price": "￥264,800"
+    },
+    {
+        "maker": "NEC エヌイーシー",
+        "name": "PC-A2377CAB [デスクトップパソコン 23.8型/Core i7-10510U/メモリ 8GB/SSD 1TB/Windows 11 Home/Microsoft Office Home ＆ Business 2021/ブラック]",
+        "price": "￥210,880"
+    },
+    {
+        "maker": "ミニズフォーラム MINISFORUM",
+        "name": "UM700L-8/256-W10Pro（3750H） [超小型デスクトップパソコン/CPU：AMD Ryzen7 3750H/メモリ：8GB/SSD：256GB/OS：Windows 10 Pro搭載]",
+        "price": "￥68,970"
+    },
+    {
+        "maker": "ASUS エイスース",
+        "name": "PB62-B5274AH [デスクトップミニパソコン ASUS Mini PC PB62/Core i5-11400/メモリ 8GB/SSD 256GB/Windows 11 home/ブラック]",
+        "price": "￥96,800"
+    },
+    {
+        "maker": "マウスコンピューター mouse computer",
+        "name": "PCMIDV119KT100P22C [デスクトップパソコン Core i9-11900K/メモリ 32GB/SSD 1TB/HDD 4TB/NVIDIA T1000/Windows 11 Pro（DSP）/ブラック]",
+        "price": "￥334,800"
+    },
+    {
+        "maker": "ASUS エイスース",
+        "name": "CHROMEBOX4-G7021UN [Chromebox デスクトップPC i7-10510U/メモリ 16GB/SSD 256GB/Wi-Fi 6/Vesa Mount/Chrome OS]",
+        "price": "￥102,950"
+    },
+    {
+        "maker": "ガレリア GALLERIA",
+        "name": "RA516S-1500-R21 [ゲーミングデスクトップパソコン ガレリア RA516S-1500 12400/Core i5-12400/GTX 1660 SUPER/メモリ 16GB/SSD 500GB/Windows 11 Home]",
+        "price": "￥189,800"
+    },
+    {
+        "maker": "ASUS エイスース",
+        "name": "PB60G-B5372AD [デスクトップミニパソコン/Core i5-9400T/メモリ 8GB/SSD 256GB＋HDD 1TB/Windows 11 Home ブラック]",
+        "price": "￥110,010"
+    },
+    {
+        "maker": "MSI エムエスアイ",
+        "name": "MODERN-AM242TP-11M-1260JP [オールインワンパソコン Core i5-1135G7/メモリ 16GB/SSD 512GB/Windows 11 Home/Office Home ＆ Business 2021]",
+        "price": "￥192,200"
+    },
+    {
+        "maker": "アイ･オー･データ機器 I-O DATA",
+        "name": "MPC-64WE1 [小型デスクトップパソコン Intel Celeron Processor N335/メモリー4GB/eMMC 64GB/Windows 10 IoT Enterprise 2019]",
+        "price": "￥60,280"
+    },
+    {
+        "maker": "MSI エムエスアイ",
+        "name": "P100X-12VTG-1094JP [デスクトップパソコン/Core i7-12700K/メモリ 32GB/SSD 1TB＋HDD 2TB/Windows 11 Pro]",
+        "price": "￥340,000"
+    },
+    {
+        "maker": "マウスコンピューター mouse computer",
+        "name": "PCMI114G306H22C [デスクトップパソコン Core i5-11400/メモリ 16GB/SSD 512GB/HDD 1TB/RTX 3060/Windows 11 Home/ブラック]",
+        "price": "￥229,800"
+    },
+    {
+        "maker": "レノボ･ジャパン Lenovo",
+        "name": "F0G10047JP [IdeaCentre AIO360/23.8型/AMD Ryzen 3 5300U プロセッサー/メモリ8GB/SSD512GB（PCIe NVMe/M.2）/Windows 11 Home 64bit（日本語版）/Microsoft Office Home ＆ Business 2021/ブラック]",
+        "price": "￥123,190"
+    },
+    {
+        "maker": "MSI エムエスアイ",
+        "name": "TRIDENT-X-12VTD-051JP [ゲーミングデスクトップパソコン/Core i7-12700K/メモリ 32GB/SSD 1TB＋HDD 1TB/Windows 11 Pro]",
+        "price": "￥350,000"
+    },
+    {
+        "maker": "ミニズフォーラム MINISFORUM",
+        "name": "UM320-8/256-W10Pro（3200U） [小型デスクトップパソコン Ryzen 3 3200U/メモリ 8GB/ストレージ 256GB/Windows 10 Pro]",
+        "price": "￥46,780"
+    },
+    {
+        "maker": "ASUS エイスース",
+        "name": "CHROMEBOX4-G3019UN [Chromebox デスクトップPC Core i3-10110U/メモリ 8GB/SSD 128GB/Wi-Fi 6/Vesa Mount/Chrome OS]",
+        "price": "￥76,800"
+    },
+    {
+        "maker": "ミニズフォーラム MINISFORUM",
+        "name": "UM350-8/512-W10Pro（3550H） [小型デスクトップパソコン/Ryzen 5 3550H/メモリ 8GB/SSD 512GB/Windows 10 Pro/シルバー]",
+        "price": "￥58,180"
+    },
+    {
+        "maker": "CHUWI",
+        "name": "HeroBox-8/256-W10(J4125) [小型デスクトップパソコン/Celeron Processor J4125/メモリ 8GB/SSD 256GB/Windows 10 Home/ブラック]",
+        "price": "￥30,580"
+    },
+    {
+        "maker": "ミニズフォーラム MINISFORUM",
+        "name": "X500-16/512-W10Pro（5700G） [小型デスクトップパソコン/AMD Ryzen 7 5700G/メモリ 16GB/ストレージ M.2 2280 SSD NVMe 512GB/Windows 10 Pro 64bit/ブラック]",
+        "price": "￥112,990"
+    },
+    {
+        "maker": "ECS イーシーエス",
+        "name": "LIVAQ1D-4/64-W10Pro（N3350） [小型デスクトップパソコン Intel Celeron N3350/メモリ 4GB/eMMC 64GB/Windows 10 Pro 64bit/ブラック]",
+        "price": "￥31,090"
+    },
+    {
+        "maker": "アイ･オー･データ機器 I-O DATA",
+        "name": "MPC-LVZ2 [小型デスクトップパソコン/Intel Pentium Silver N5030/メモリー4GB/eMMC 64GB/Windows 10 IoT Enterprise搭載]",
+        "price": "￥62,480"
+    },
+    {
+        "maker": "ASUS エイスース",
+        "name": "G15DK-R75G1660TW11 [ゲーミングデスクトップパソコン ROG Strix GA15 （G15DK）/Ryzen 7 5800X/GTX 1660 Ti/メモリ 16GB/SSD 512GB/Windows 11 Home/ブラック]",
+        "price": "￥199,800"
+    },
+    {
+        "maker": "レノボ･ジャパン Lenovo",
+        "name": "F0G10046JP [IdeaCentre AIO360/23.8型/AMD Ryzen 7 5700U プロセッサー/メモリ8GB/SSD512GB（PCIe NVMe/M.2）/Windows 11 Home 64bit（日本語版）/Microsoft Office Home ＆ Business 2021/ブラック]",
+        "price": "￥140,800"
+    },
+    {
+        "maker": "ASUS エイスース",
+        "name": "CHROMEBOX4-G5020UN [Chromebox デスクトップPC Core i5-10210U/メモリ 8GB/SSD 128GB/Wi-Fi 6/Vesa Mount/Chrome OS]",
+        "price": "￥85,800"
+    },
+    {
+        "maker": "マウスコンピューター mouse computer",
+        "name": "PCMIDV117G306P22C [デスクトップパソコン Core i7-11700/メモリ 16GB/SSD 1TB/HDD 2TB/RTX 3060/Windows 11 Pro/ブラック]",
+        "price": "￥289,800"
+    },
+    {
+        "maker": "【まとめ買い割引】デスクトップパソコン＋セキュリティソフトセット [ミニズフォーラム MINISFORUM HX90-32/512-W10Pro（5900HX） 小型デスクトップパソコン/AMD Ryzen 9 5900HX/メモリ 32GB/ストレージ M.2 2280 SSD NVMe 512GB＋ウイルスバスター クラウド 3年版]",
+        "name": "【まとめ買い割引】デスクトップパソコン＋セキュリティソフトセット [ミニズフォーラム MINISFORUM HX90-32/512-W10Pro（5900HX） 小型デスクトップパソコン/AMD Ryzen 9 5900HX/メモリ 32GB/ストレージ M.2 2280 SSD NVMe 512GB＋ウイルスバスター クラウド 3年版]",
+        "price": "￥135,400"
+    },
+    {
+        "maker": "アイ･オー･データ機器 I-O DATA",
+        "name": "MPC-LVQ2 [Intel(R)Celeron(R)N4120/4GB/64GB(eMMC)/Windows 10 IoT Enterprise搭載 miniPC]",
+        "price": "￥60,280"
+    },
+    {
+        "maker": "マウスコンピューター mouse computer",
+        "name": "PCMI117G307H21J [ゲーミングデスクトップパソコン/Corei7-11700/16GB/SSD 512GB （NVMe）/HDD 2TB/GeForce RTX 3070/DVDスーパーマルチドライブ/Windows10 Home 64bit]",
+        "price": "￥299,800"
+    },
+    {
+        "maker": "ECS イーシーエス",
+        "name": "LIVAQ1D-4/64-W10（N3350） IOT [小型デスクトップパソコン Intel Celeron N3350/メモリ 4GB/eMMC 64GB/Windows 10 IoT Enterprise LTSC 64bit/ブラック]",
+        "price": "￥33,110"
+    },
+    {
+        "maker": "ECS イーシーエス",
+        "name": "LIVAZ3P-4/128-W10Pro（i3-10110U） [LIVA Z3 Plus / メモリ4GB / SSD128GB / Core i3-10110U / Windows 10 Pro]",
+        "price": "￥88,670"
+    },
+    {
+        "maker": "【まとめ買い割引】デスクトップパソコン＋セキュリティソフトセット [ミニズフォーラム MINISFORUM HM50-16/512-W10Pro（4500U） 小型デスクトップパソコン/CPU：AMD Ryzen 5 4500U/メモリ：16GB/ストレージ：M.2 SSD NVMe 512GB＋ウイルスバスター クラウド 3年版]",
+        "name": "【まとめ買い割引】デスクトップパソコン＋セキュリティソフトセット [ミニズフォーラム MINISFORUM HM50-16/512-W10Pro（4500U） 小型デスクトップパソコン/CPU：AMD Ryzen 5 4500U/メモリ：16GB/ストレージ：M.2 SSD NVMe 512GB＋ウイルスバスター クラウド 3年版]",
+        "price": "￥92,710"
+    },
+    {
+        "maker": "【まとめ買い割引】デスクトップパソコン＋セキュリティソフトセット [ミニズフォーラム MINISFORUM N40-4/64-W10Pro（N4020） 小型デスクトップパソコン/CPU：Intel Celeron Processor N4020/メモリ：4GB/ストレージ：eMMC 64GB＋ウイルスバスター クラウド 3年版]",
+        "name": "【まとめ買い割引】デスクトップパソコン＋セキュリティソフトセット [ミニズフォーラム MINISFORUM N40-4/64-W10Pro（N4020） 小型デスクトップパソコン/CPU：Intel Celeron Processor N4020/メモリ：4GB/ストレージ：eMMC 64GB＋ウイルスバスター クラウド 3年版]",
+        "price": "￥34,190"
+    },
+    {
+        "maker": "レノボ･ジャパン Lenovo",
+        "name": "F0E50030JP [一体型デスクトップ Yoga A940 core i7-9700 27型 メモリー16GB HDD 2TB 、Optaneメモリー16GB Windows 10 Pro 64bit 日本語版 Microsoft Office Home&Business2019 アイアングレー]",
+        "price": "￥302,500"
+    },
+    {
+        "maker": "ECS イーシーエス",
+        "name": "LIVAZ-4/64-W10Pro(N3350) [Windows 10 Pro搭載 小型デスクトップパソコン メモリ4GB/ストレージ64GBモデル]",
+        "price": "￥32,000"
+    },
+    {
+        "maker": "ミニズフォーラム MINISFORUM",
+        "name": "HM80-16/512-W10Pro（4800U） [小型デスクトップパソコン/CPU：AMD Ryzen 7 4800U/メモリ：16GB/ストレージ：M.2 SSD NVMe 512GB/OS：Windows 10 Pro 64bit]",
+        "price": "￥109,780"
+    },
+    {
+        "maker": "アイ･オー･データ機器 I-O DATA",
+        "name": "MPC-LVZ3P [CPU N3350Intel Core i3-10110U/メモリー 8GB/ストレージ 256GB/OS Windows10 IoT Enterprise 2019]",
+        "price": "￥98,780"
+    },
+    {
+        "maker": "ECS イーシーエス",
+        "name": "LIVAZ-4/64-W10Pro(N4200) [Windows 10 Pro搭載 ファンレス仕様 小型デスクトップパソコン]",
+        "price": "￥37,560"
+    },
+    {
+        "maker": "ECS イーシーエス",
+        "name": "LIVAZ-8/256-W10Pro（N4200） [Windows 10 Pro搭載 小型デスクトップパソコン]",
+        "price": "￥50,700"
+    },
+    {
+        "maker": "ASUS エイスース",
+        "name": "VC66-C2B5204AN [デスクトップミニパソコン ASUS Mini PC VC66-C2/Core i5-10400/メモリ 8GB/SSD 256GB/Windows 11 Home/ブラック]",
+        "price": "￥114,800"
+    }
+]

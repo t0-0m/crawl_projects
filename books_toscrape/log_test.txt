@@ -1,0 +1,534 @@
+2022-06-06 13:01:00 [scrapy.utils.log] INFO: Scrapy 2.4.1 started (bot: books_toscrape)
+2022-06-06 13:01:00 [scrapy.utils.log] INFO: Versions: lxml 4.9.0.0, libxml2 2.9.14, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.8.13 (default, Mar 28 2022, 06:16:26) - [Clang 12.0.0 ], pyOpenSSL 22.0.0 (OpenSSL 3.0.3 3 May 2022), cryptography 37.0.2, Platform macOS-10.16-x86_64-i386-64bit
+2022-06-06 13:01:00 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-06-06 13:01:00 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'books_toscrape',
+ 'DOWNLOAD_DELAY': 0.3,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'log_test.txt',
+ 'NEWSPIDER_MODULE': 'books_toscrape.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['books_toscrape.spiders']}
+2022-06-06 13:01:00 [scrapy.extensions.telnet] INFO: Telnet Password: fe42bc24161ab12b
+2022-06-06 13:01:00 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2022-06-06 13:01:00 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-06-06 13:01:00 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-06-06 13:01:00 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-06-06 13:01:00 [scrapy.core.engine] INFO: Spider opened
+2022-06-06 13:01:00 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-06-06 13:01:00 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-06-06 13:01:01 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://books.toscrape.com/robots.txt> (referer: None)
+2022-06-06 13:01:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html> (referer: None)
+2022-06-06 13:01:02 [root] DEBUG: {'response.status': 200, 'response.url': 'https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html', 'next_page': 'page-2.html'}
+2022-06-06 13:01:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/the-bane-chronicles-the-bane-chronicles-1-11_746/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html)
+2022-06-06 13:01:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/the-bane-chronicles-the-bane-chronicles-1-11_746/index.html>
+{'title': 'The Bane Chronicles (The Bane Chronicles #1-11)', 'price': '£44.73', 'stock': '\n    ', 'rating': 'Four', 'UPC': 'dc6f688b82e42a5b', 'Number of review': '0'}
+2022-06-06 13:01:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/the-hidden-oracle-the-trials-of-apollo-1_752/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html)
+2022-06-06 13:01:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/the-hidden-oracle-the-trials-of-apollo-1_752/index.html>
+{'title': 'The Hidden Oracle (The Trials of Apollo #1)', 'price': '£52.26', 'stock': '\n    ', 'rating': 'Two', 'UPC': '992974ba6a0536ea', 'Number of review': '0'}
+2022-06-06 13:01:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/the-star-touched-queen_764/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html)
+2022-06-06 13:01:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/hollow-city-miss-peregrines-peculiar-children-2_813/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html)
+2022-06-06 13:01:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/the-star-touched-queen_764/index.html>
+{'title': 'The Star-Touched Queen', 'price': '£46.02', 'stock': '\n    ', 'rating': 'Five', 'UPC': '1528279aec1f3dce', 'Number of review': '0'}
+2022-06-06 13:01:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/hollow-city-miss-peregrines-peculiar-children-2_813/index.html>
+{'title': 'Hollow City (Miss Peregrine’s Peculiar Children #2)', 'price': '£42.98', 'stock': '\n    ', 'rating': 'One', 'UPC': '4ce91d31c1e57c33', 'Number of review': '0'}
+2022-06-06 13:01:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/throne-of-glass-throne-of-glass-1_868/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html)
+2022-06-06 13:01:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/the-glittering-court-the-glittering-court-1_845/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html)
+2022-06-06 13:01:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/throne-of-glass-throne-of-glass-1_868/index.html>
+{'title': 'Throne of Glass (Throne of Glass #1)', 'price': '£35.07', 'stock': '\n    ', 'rating': 'Three', 'UPC': '590a9cccf7db9f7d', 'Number of review': '0'}
+2022-06-06 13:01:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/the-glittering-court-the-glittering-court-1_845/index.html>
+{'title': 'The Glittering Court (The Glittering Court #1)', 'price': '£44.28', 'stock': '\n    ', 'rating': 'One', 'UPC': '2dbb7ec08cdd7f3c', 'Number of review': '0'}
+2022-06-06 13:01:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/a-court-of-thorns-and-roses-a-court-of-thorns-and-roses-1_874/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html)
+2022-06-06 13:01:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/a-court-of-thorns-and-roses-a-court-of-thorns-and-roses-1_874/index.html>
+{'title': 'A Court of Thorns and Roses (A Court of Thorns and Roses #1)', 'price': '£52.37', 'stock': '\n    ', 'rating': 'One', 'UPC': '01d2001ac1e6f8a3', 'Number of review': '0'}
+2022-06-06 13:01:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/avatar-the-last-airbender-smoke-and-shadow-part-3-smoke-and-shadow-3_881/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html)
+2022-06-06 13:01:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/avatar-the-last-airbender-smoke-and-shadow-part-3-smoke-and-shadow-3_881/index.html>
+{'title': 'Avatar: The Last Airbender: Smoke and Shadow, Part 3 (Smoke and Shadow #3)', 'price': '£28.09', 'stock': '\n    ', 'rating': 'Two', 'UPC': '6d5300b2d8f37e07', 'Number of review': '0'}
+2022-06-06 13:01:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/crown-of-midnight-throne-of-glass-2_888/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html)
+2022-06-06 13:01:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/crown-of-midnight-throne-of-glass-2_888/index.html>
+{'title': 'Crown of Midnight (Throne of Glass #2)', 'price': '£43.29', 'stock': '\n    ', 'rating': 'Three', 'UPC': '7267864328ae8b9d', 'Number of review': '0'}
+2022-06-06 13:01:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/princess-between-worlds-wide-awake-princess-5_919/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html)
+2022-06-06 13:01:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/masks-and-shadows_909/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html)
+2022-06-06 13:01:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/saga-volume-6-saga-collected-editions-6_924/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html)
+2022-06-06 13:01:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/princess-between-worlds-wide-awake-princess-5_919/index.html>
+{'title': 'Princess Between Worlds (Wide-Awake Princess #5)', 'price': '£13.34', 'stock': '\n    ', 'rating': 'Five', 'UPC': '0e691eda369f4e09', 'Number of review': '0'}
+2022-06-06 13:01:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/masks-and-shadows_909/index.html>
+{'title': 'Masks and Shadows', 'price': '£56.40', 'stock': '\n    ', 'rating': 'Two', 'UPC': 'fa9610a50a1bf149', 'Number of review': '0'}
+2022-06-06 13:01:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/saga-volume-6-saga-collected-editions-6_924/index.html>
+{'title': 'Saga, Volume 6 (Saga (Collected Editions) #6)', 'price': '£25.02', 'stock': '\n    ', 'rating': 'Three', 'UPC': 'c849f0b2f5d6a742', 'Number of review': '0'}
+2022-06-06 13:01:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/unicorn-tracks_951/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html)
+2022-06-06 13:01:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/unicorn-tracks_951/index.html>
+{'title': 'Unicorn Tracks', 'price': '£18.78', 'stock': '\n    ', 'rating': 'Three', 'UPC': '7ae099f3898e0209', 'Number of review': '0'}
+2022-06-06 13:01:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/category/books/fantasy_19/page-2.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html)
+2022-06-06 13:01:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/kings-folly-the-kinsman-chronicles-1_473/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html)
+2022-06-06 13:01:07 [root] DEBUG: {'response.status': 200, 'response.url': 'https://books.toscrape.com/catalogue/category/books/fantasy_19/page-2.html', 'next_page': 'page-3.html'}
+2022-06-06 13:01:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/kings-folly-the-kinsman-chronicles-1_473/index.html>
+{'title': "King's Folly (The Kinsman Chronicles #1)", 'price': '£39.61', 'stock': '\n    ', 'rating': 'Five', 'UPC': '4c82371b8cd02d4d', 'Number of review': '0'}
+2022-06-06 13:01:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/a-shard-of-ice-the-black-symphony-saga-1_558/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html)
+2022-06-06 13:01:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/a-shard-of-ice-the-black-symphony-saga-1_558/index.html>
+{'title': 'A Shard of Ice (The Black Symphony Saga #1)', 'price': '£56.63', 'stock': '\n    ', 'rating': 'Three', 'UPC': '63d5f1651880dcea', 'Number of review': '0'}
+2022-06-06 13:01:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/the-star-touched-queen_642/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html)
+2022-06-06 13:01:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/the-star-touched-queen_642/index.html>
+{'title': 'The Star-Touched Queen', 'price': '£32.30', 'stock': '\n    ', 'rating': 'Five', 'UPC': '4a7a25be293ad678', 'Number of review': '0'}
+2022-06-06 13:01:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/searching-for-meaning-in-gailana_648/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html)
+2022-06-06 13:01:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/city-of-glass-the-mortal-instruments-3_678/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html)
+2022-06-06 13:01:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/searching-for-meaning-in-gailana_648/index.html>
+{'title': 'Searching for Meaning in Gailana', 'price': '£38.73', 'stock': '\n    ', 'rating': 'One', 'UPC': '2f0213137a80d485', 'Number of review': '0'}
+2022-06-06 13:01:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/city-of-glass-the-mortal-instruments-3_678/index.html>
+{'title': 'City of Glass (The Mortal Instruments #3)', 'price': '£56.02', 'stock': '\n    ', 'rating': 'Four', 'UPC': '966ebb738e0f9d9b', 'Number of review': '0'}
+2022-06-06 13:01:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/demigods-magicians-percy-and-annabeth-meet-the-kanes-percy-jackson-kane-chronicles-crossover-1-3_685/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html)
+2022-06-06 13:01:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/demigods-magicians-percy-and-annabeth-meet-the-kanes-percy-jackson-kane-chronicles-crossover-1-3_685/index.html>
+{'title': 'Demigods & Magicians: Percy and Annabeth Meet the Kanes (Percy Jackson & Kane Chronicles Crossover #1-3)', 'price': '£37.51', 'stock': '\n    ', 'rating': 'Five', 'UPC': '3c6fe637a0180b01', 'Number of review': '0'}
+2022-06-06 13:01:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/island-of-dragons-unwanteds-7_705/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html)
+2022-06-06 13:01:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/island-of-dragons-unwanteds-7_705/index.html>
+{'title': 'Island of Dragons (Unwanteds #7)', 'price': '£29.65', 'stock': '\n    ', 'rating': 'One', 'UPC': '2b52334fab158861', 'Number of review': '0'}
+2022-06-06 13:01:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/heir-to-the-sky_166/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/page-2.html)
+2022-06-06 13:01:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/heir-to-the-sky_166/index.html>
+{'title': 'Heir to the Sky', 'price': '£44.07', 'stock': '\n    ', 'rating': 'Four', 'UPC': 'b003f8bb02f76dc5', 'Number of review': '0'}
+2022-06-06 13:01:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/midnight-riot-peter-grant-rivers-of-london-books-1_194/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/page-2.html)
+2022-06-06 13:01:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/midnight-riot-peter-grant-rivers-of-london-books-1_194/index.html>
+{'title': 'Midnight Riot (Peter Grant/ Rivers of London - books #1)', 'price': '£55.46', 'stock': '\n    ', 'rating': 'Two', 'UPC': 'e9056f9b5a40a301', 'Number of review': '0'}
+2022-06-06 13:01:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/soldier-talon-3_222/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/page-2.html)
+2022-06-06 13:01:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/soldier-talon-3_222/index.html>
+{'title': 'Soldier (Talon #3)', 'price': '£24.72', 'stock': '\n    ', 'rating': 'Two', 'UPC': 'feaaae90514eb2ac', 'Number of review': '0'}
+2022-06-06 13:01:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/the-rose-the-dagger-the-wrath-and-the-dawn-2_278/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/page-2.html)
+2022-06-06 13:01:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/the-rose-the-dagger-the-wrath-and-the-dawn-2_278/index.html>
+{'title': 'The Rose & the Dagger (The Wrath and the Dawn #2)', 'price': '£58.64', 'stock': '\n    ', 'rating': 'Four', 'UPC': '322a9e34d87f54b1', 'Number of review': '0'}
+2022-06-06 13:01:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/harry-potter-and-the-chamber-of-secrets-harry-potter-2_325/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/page-2.html)
+2022-06-06 13:01:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/harry-potter-and-the-chamber-of-secrets-harry-potter-2_325/index.html>
+{'title': 'Harry Potter and the Chamber of Secrets (Harry Potter #2)', 'price': '£14.74', 'stock': '\n    ', 'rating': 'One', 'UPC': 'c7c4f55b7321cba7', 'Number of review': '0'}
+2022-06-06 13:01:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/harry-potter-and-the-half-blood-prince-harry-potter-6_326/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/page-2.html)
+2022-06-06 13:01:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/harry-potter-and-the-half-blood-prince-harry-potter-6_326/index.html>
+{'title': 'Harry Potter and the Half-Blood Prince (Harry Potter #6)', 'price': '£48.75', 'stock': '\n    ', 'rating': 'Five', 'UPC': '73f4f87dd936ee5c', 'Number of review': '0'}
+2022-06-06 13:01:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/paper-and-fire-the-great-library-2_339/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/page-2.html)
+2022-06-06 13:01:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/paper-and-fire-the-great-library-2_339/index.html>
+{'title': 'Paper and Fire (The Great Library #2)', 'price': '£49.45', 'stock': '\n    ', 'rating': 'Five', 'UPC': 'ae884ac655d6ee3e', 'Number of review': '0'}
+2022-06-06 13:01:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/harry-potter-and-the-order-of-the-phoenix-harry-potter-5_327/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/page-2.html)
+2022-06-06 13:01:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/harry-potter-and-the-order-of-the-phoenix-harry-potter-5_327/index.html>
+{'title': 'Harry Potter and the Order of the Phoenix (Harry Potter #5)', 'price': '£31.63', 'stock': '\n    ', 'rating': 'Four', 'UPC': '5a6b7155f2797537', 'Number of review': '0'}
+2022-06-06 13:01:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/the-beast-black-dagger-brotherhood-14_342/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/page-2.html)
+2022-06-06 13:01:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/the-beast-black-dagger-brotherhood-14_342/index.html>
+{'title': 'The Beast (Black Dagger Brotherhood #14)', 'price': '£46.08', 'stock': '\n    ', 'rating': 'Five', 'UPC': '8930013d06942df1', 'Number of review': '0'}
+2022-06-06 13:01:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/the-demonists-demonist-1_345/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/page-2.html)
+2022-06-06 13:01:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/the-demonists-demonist-1_345/index.html>
+{'title': 'The Demonists (Demonist #1)', 'price': '£52.11', 'stock': '\n    ', 'rating': 'Two', 'UPC': 'ff2dffba388d9922', 'Number of review': '0'}
+2022-06-06 13:01:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/a-storm-of-swords-a-song-of-ice-and-fire-3_116/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/page-2.html)
+2022-06-06 13:01:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/a-storm-of-swords-a-song-of-ice-and-fire-3_116/index.html>
+{'title': 'A Storm of Swords (A Song of Ice and Fire #3)', 'price': '£31.22', 'stock': '\n    ', 'rating': 'Two', 'UPC': '87beabf664115d79', 'Number of review': '0'}
+2022-06-06 13:01:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/category/books/fantasy_19/page-3.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/page-2.html)
+2022-06-06 13:01:14 [root] DEBUG: {'response.status': 200, 'response.url': 'https://books.toscrape.com/catalogue/category/books/fantasy_19/page-3.html', 'next_page': None}
+2022-06-06 13:01:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/ash_123/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/page-2.html)
+2022-06-06 13:01:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/ash_123/index.html>
+{'title': 'Ash', 'price': '£22.06', 'stock': '\n    ', 'rating': 'Four', 'UPC': '5d22e2a46604b6e7', 'Number of review': '0'}
+2022-06-06 13:01:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/darkfever-fever-1_145/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/page-2.html)
+2022-06-06 13:01:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/darkfever-fever-1_145/index.html>
+{'title': 'Darkfever (Fever #1)', 'price': '£56.02', 'stock': '\n    ', 'rating': 'One', 'UPC': '468bd274ac084bb9', 'Number of review': '0'}
+2022-06-06 13:01:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/eragon-the-inheritance-cycle-1_153/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/page-2.html)
+2022-06-06 13:01:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/eragon-the-inheritance-cycle-1_153/index.html>
+{'title': 'Eragon (The Inheritance Cycle #1)', 'price': '£43.87', 'stock': '\n    ', 'rating': 'Three', 'UPC': 'b843f52a986a2914', 'Number of review': '0'}
+2022-06-06 13:01:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/a-feast-for-crows-a-song-of-ice-and-fire-4_357/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/page-2.html)
+2022-06-06 13:01:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/a-feast-for-crows-a-song-of-ice-and-fire-4_357/index.html>
+{'title': 'A Feast for Crows (A Song of Ice and Fire #4)', 'price': '£17.21', 'stock': '\n    ', 'rating': 'Four', 'UPC': 'f2c8f4b4c94d5c5c', 'Number of review': '0'}
+2022-06-06 13:01:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/tell-the-wind-and-fire_396/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/page-2.html)
+2022-06-06 13:01:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/tell-the-wind-and-fire_396/index.html>
+{'title': 'Tell the Wind and Fire', 'price': '£45.51', 'stock': '\n    ', 'rating': 'Three', 'UPC': '84126312e2431a09', 'Number of review': '0'}
+2022-06-06 13:01:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/the-raven-boys-the-raven-cycle-1_411/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/page-2.html)
+2022-06-06 13:01:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/the-raven-boys-the-raven-cycle-1_411/index.html>
+{'title': 'The Raven Boys (The Raven Cycle #1)', 'price': '£57.74', 'stock': '\n    ', 'rating': 'Four', 'UPC': 'e0b3a679b83caccc', 'Number of review': '0'}
+2022-06-06 13:01:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/the-false-prince-the-ascendance-trilogy-1_402/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/page-2.html)
+2022-06-06 13:01:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/the-false-prince-the-ascendance-trilogy-1_402/index.html>
+{'title': 'The False Prince (The Ascendance Trilogy #1)', 'price': '£56.00', 'stock': '\n    ', 'rating': 'Five', 'UPC': 'a2a9f76339d21ab1', 'Number of review': '0'}
+2022-06-06 13:01:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/a-gathering-of-shadows-shades-of-magic-2_456/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/page-2.html)
+2022-06-06 13:01:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/a-gathering-of-shadows-shades-of-magic-2_456/index.html>
+{'title': 'A Gathering of Shadows (Shades of Magic #2)', 'price': '£44.81', 'stock': '\n    ', 'rating': 'Four', 'UPC': 'd1378a0ad06ff979', 'Number of review': '0'}
+2022-06-06 13:01:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/every-heart-a-doorway-every-heart-a-doorway-1_465/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/page-2.html)
+2022-06-06 13:01:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/every-heart-a-doorway-every-heart-a-doorway-1_465/index.html>
+{'title': 'Every Heart a Doorway (Every Heart A Doorway #1)', 'price': '£12.16', 'stock': '\n    ', 'rating': 'Five', 'UPC': '4fa75fc6829431ca', 'Number of review': '0'}
+2022-06-06 13:01:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/myriad-prentor-1_36/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/page-3.html)
+2022-06-06 13:01:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/myriad-prentor-1_36/index.html>
+{'title': 'Myriad (Prentor #1)', 'price': '£58.75', 'stock': '\n    ', 'rating': 'Four', 'UPC': '63e20a0f98218a87', 'Number of review': '0'}
+2022-06-06 13:01:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/one-second-seven-7_41/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/page-3.html)
+2022-06-06 13:01:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/one-second-seven-7_41/index.html>
+{'title': 'One Second (Seven #7)', 'price': '£52.94', 'stock': '\n    ', 'rating': 'Two', 'UPC': '7ea31f38675b91c1', 'Number of review': '0'}
+2022-06-06 13:01:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/origins-alphas-05_42/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/page-3.html)
+2022-06-06 13:01:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/origins-alphas-05_42/index.html>
+{'title': 'Origins (Alphas 0.5)', 'price': '£28.99', 'stock': '\n    ', 'rating': 'One', 'UPC': '8932e5c12f12ffed', 'Number of review': '0'}
+2022-06-06 13:01:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/shadow-rites-jane-yellowrock-10_51/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/page-3.html)
+2022-06-06 13:01:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/shadow-rites-jane-yellowrock-10_51/index.html>
+{'title': 'Shadow Rites (Jane Yellowrock #10)', 'price': '£21.72', 'stock': '\n    ', 'rating': 'Four', 'UPC': '229cd6564bf0dce4', 'Number of review': '0'}
+2022-06-06 13:01:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/the-mirror-the-maze-the-wrath-and-the-dawn-15_73/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/page-3.html)
+2022-06-06 13:01:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/the-mirror-the-maze-the-wrath-and-the-dawn-15_73/index.html>
+{'title': 'The Mirror & the Maze (The Wrath and the Dawn #1.5)', 'price': '£29.38', 'stock': '\n    ', 'rating': 'One', 'UPC': 'c40b70e0f6d80189', 'Number of review': '0'}
+2022-06-06 13:01:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/sister-sable-the-mad-queen-1_54/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/page-3.html)
+2022-06-06 13:01:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/sister-sable-the-mad-queen-1_54/index.html>
+{'title': 'Sister Sable (The Mad Queen #1)', 'price': '£13.33', 'stock': '\n    ', 'rating': 'Three', 'UPC': '3a9a7c5895e82646', 'Number of review': '0'}
+2022-06-06 13:01:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/the-silent-twin-detective-jennifer-knight-3_82/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/page-3.html)
+2022-06-06 13:01:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/vampire-girl-vampire-girl-1_92/index.html> (referer: https://books.toscrape.com/catalogue/category/books/fantasy_19/page-3.html)
+2022-06-06 13:01:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/the-silent-twin-detective-jennifer-knight-3_82/index.html>
+{'title': 'The Silent Twin (Detective Jennifer Knight #3)', 'price': '£36.25', 'stock': '\n    ', 'rating': 'Three', 'UPC': '9e9932ae1a7d0943', 'Number of review': '0'}
+2022-06-06 13:01:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/vampire-girl-vampire-girl-1_92/index.html>
+{'title': 'Vampire Girl (Vampire Girl #1)', 'price': '£53.82', 'stock': '\n    ', 'rating': 'Two', 'UPC': 'dab5e75d1339706a', 'Number of review': '0'}
+2022-06-06 13:01:20 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-06-06 13:01:20 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 18625,
+ 'downloader/request_count': 52,
+ 'downloader/request_method_count/GET': 52,
+ 'downloader/response_bytes': 1065308,
+ 'downloader/response_count': 52,
+ 'downloader/response_status_count/200': 51,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 20.174831,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 6, 6, 4, 1, 20, 806450),
+ 'item_scraped_count': 48,
+ 'log_count/DEBUG': 103,
+ 'log_count/INFO': 10,
+ 'memusage/max': 57913344,
+ 'memusage/startup': 57913344,
+ 'request_depth_max': 3,
+ 'response_received_count': 52,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/404': 1,
+ 'scheduler/dequeued': 51,
+ 'scheduler/dequeued/memory': 51,
+ 'scheduler/enqueued': 51,
+ 'scheduler/enqueued/memory': 51,
+ 'start_time': datetime.datetime(2022, 6, 6, 4, 1, 0, 631619)}
+2022-06-06 13:01:20 [scrapy.core.engine] INFO: Spider closed (finished)
+2022-06-06 13:04:00 [scrapy.utils.log] INFO: Scrapy 2.4.1 started (bot: books_toscrape)
+2022-06-06 13:04:00 [scrapy.utils.log] INFO: Versions: lxml 4.9.0.0, libxml2 2.9.14, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.8.13 (default, Mar 28 2022, 06:16:26) - [Clang 12.0.0 ], pyOpenSSL 22.0.0 (OpenSSL 3.0.3 3 May 2022), cryptography 37.0.2, Platform macOS-10.16-x86_64-i386-64bit
+2022-06-06 13:04:00 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-06-06 13:04:00 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'books_toscrape',
+ 'DOWNLOAD_DELAY': 0.3,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'log_test.txt',
+ 'NEWSPIDER_MODULE': 'books_toscrape.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['books_toscrape.spiders']}
+2022-06-06 13:04:00 [scrapy.extensions.telnet] INFO: Telnet Password: 6cd3ce4b165ab3f3
+2022-06-06 13:04:00 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2022-06-06 13:04:00 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-06-06 13:04:00 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-06-06 13:04:00 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-06-06 13:04:00 [scrapy.core.engine] INFO: Spider opened
+2022-06-06 13:04:00 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-06-06 13:04:00 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-06-06 13:04:01 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://books.toscrape.com/robots.txt> (referer: None)
+2022-06-06 13:04:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html> (referer: None)
+2022-06-06 13:04:02 [root] DEBUG: {'response.status': 200, 'response.url': 'https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html', 'next_page': 'page-2.html'}
+2022-06-06 13:04:02 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-06-06 13:04:02 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 492,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 51793,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 1.653087,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 6, 6, 4, 4, 2, 472075),
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 10,
+ 'memusage/max': 57917440,
+ 'memusage/startup': 57917440,
+ 'response_received_count': 2,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/404': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 6, 6, 4, 4, 0, 818988)}
+2022-06-06 13:04:02 [scrapy.core.engine] INFO: Spider closed (finished)
+2022-06-06 13:08:12 [scrapy.utils.log] INFO: Scrapy 2.4.1 started (bot: books_toscrape)
+2022-06-06 13:08:12 [scrapy.utils.log] INFO: Versions: lxml 4.9.0.0, libxml2 2.9.14, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.8.13 (default, Mar 28 2022, 06:16:26) - [Clang 12.0.0 ], pyOpenSSL 22.0.0 (OpenSSL 3.0.3 3 May 2022), cryptography 37.0.2, Platform macOS-10.16-x86_64-i386-64bit
+2022-06-06 13:08:12 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'books_toscrape',
+ 'DOWNLOAD_DELAY': 0.3,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'log_test.txt',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'books_toscrape.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['books_toscrape.spiders']}
+2022-06-06 13:08:12 [scrapy.extensions.telnet] INFO: Telnet Password: fbbc9b06cd5656c5
+2022-06-06 13:08:12 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2022-06-06 13:08:12 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-06-06 13:08:12 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-06-06 13:08:12 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-06-06 13:08:12 [scrapy.core.engine] INFO: Spider opened
+2022-06-06 13:08:12 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-06-06 13:08:12 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-06-06 13:08:21 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-06-06 13:08:21 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 8178,
+ 'downloader/request_count': 23,
+ 'downloader/request_method_count/GET': 23,
+ 'downloader/response_bytes': 491781,
+ 'downloader/response_count': 23,
+ 'downloader/response_status_count/200': 22,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 9.128733,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 6, 6, 4, 8, 21, 895889),
+ 'log_count/INFO': 10,
+ 'memusage/max': 58003456,
+ 'memusage/startup': 58003456,
+ 'request_depth_max': 1,
+ 'response_received_count': 23,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/404': 1,
+ 'scheduler/dequeued': 22,
+ 'scheduler/dequeued/memory': 22,
+ 'scheduler/enqueued': 22,
+ 'scheduler/enqueued/memory': 22,
+ 'start_time': datetime.datetime(2022, 6, 6, 4, 8, 12, 767156)}
+2022-06-06 13:08:21 [scrapy.core.engine] INFO: Spider closed (finished)
+2022-06-06 13:11:51 [scrapy.utils.log] INFO: Scrapy 2.4.1 started (bot: books_toscrape)
+2022-06-06 13:11:51 [scrapy.utils.log] INFO: Versions: lxml 4.9.0.0, libxml2 2.9.14, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.8.13 (default, Mar 28 2022, 06:16:26) - [Clang 12.0.0 ], pyOpenSSL 22.0.0 (OpenSSL 3.0.3 3 May 2022), cryptography 37.0.2, Platform macOS-10.16-x86_64-i386-64bit
+2022-06-06 13:11:51 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'books_toscrape',
+ 'DOWNLOAD_DELAY': 0.3,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'log_test.txt',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'books_toscrape.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['books_toscrape.spiders']}
+2022-06-06 13:11:51 [scrapy.extensions.telnet] INFO: Telnet Password: 6fbf0728107ae142
+2022-06-06 13:11:51 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2022-06-06 13:11:52 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-06-06 13:11:52 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-06-06 13:11:52 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-06-06 13:11:52 [scrapy.core.engine] INFO: Spider opened
+2022-06-06 13:11:52 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-06-06 13:11:52 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-06-06 13:12:12 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-06-06 13:12:12 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 18625,
+ 'downloader/request_count': 52,
+ 'downloader/request_method_count/GET': 52,
+ 'downloader/response_bytes': 1065308,
+ 'downloader/response_count': 52,
+ 'downloader/response_status_count/200': 51,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 20.718337,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 6, 6, 4, 12, 12, 742123),
+ 'log_count/INFO': 10,
+ 'memusage/max': 57982976,
+ 'memusage/startup': 57982976,
+ 'request_depth_max': 3,
+ 'response_received_count': 52,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/404': 1,
+ 'scheduler/dequeued': 51,
+ 'scheduler/dequeued/memory': 51,
+ 'scheduler/enqueued': 51,
+ 'scheduler/enqueued/memory': 51,
+ 'start_time': datetime.datetime(2022, 6, 6, 4, 11, 52, 23786)}
+2022-06-06 13:12:12 [scrapy.core.engine] INFO: Spider closed (finished)
+2022-06-06 13:13:19 [scrapy.utils.log] INFO: Scrapy 2.4.1 started (bot: books_toscrape)
+2022-06-06 13:13:19 [scrapy.utils.log] INFO: Versions: lxml 4.9.0.0, libxml2 2.9.14, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.8.13 (default, Mar 28 2022, 06:16:26) - [Clang 12.0.0 ], pyOpenSSL 22.0.0 (OpenSSL 3.0.3 3 May 2022), cryptography 37.0.2, Platform macOS-10.16-x86_64-i386-64bit
+2022-06-06 13:13:19 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'books_toscrape',
+ 'DOWNLOAD_DELAY': 0.3,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'log_test.txt',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'books_toscrape.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['books_toscrape.spiders']}
+2022-06-06 13:13:19 [scrapy.extensions.telnet] INFO: Telnet Password: e1d22b2e22f570e3
+2022-06-06 13:13:19 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2022-06-06 13:13:19 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-06-06 13:13:19 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-06-06 13:13:19 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-06-06 13:13:19 [scrapy.core.engine] INFO: Spider opened
+2022-06-06 13:13:19 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-06-06 13:13:19 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-06-06 13:13:20 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-06-06 13:13:20 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 516,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 17600,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 1.090131,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 6, 6, 4, 13, 20, 824175),
+ 'log_count/INFO': 10,
+ 'memusage/max': 57946112,
+ 'memusage/startup': 57946112,
+ 'response_received_count': 2,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/404': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 6, 6, 4, 13, 19, 734044)}
+2022-06-06 13:13:20 [scrapy.core.engine] INFO: Spider closed (finished)
+2022-06-06 13:15:34 [scrapy.utils.log] INFO: Scrapy 2.4.1 started (bot: books_toscrape)
+2022-06-06 13:15:34 [scrapy.utils.log] INFO: Versions: lxml 4.9.0.0, libxml2 2.9.14, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.8.13 (default, Mar 28 2022, 06:16:26) - [Clang 12.0.0 ], pyOpenSSL 22.0.0 (OpenSSL 3.0.3 3 May 2022), cryptography 37.0.2, Platform macOS-10.16-x86_64-i386-64bit
+2022-06-06 13:15:34 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'books_toscrape',
+ 'DOWNLOAD_DELAY': 0.3,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'log_test.txt',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'books_toscrape.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['books_toscrape.spiders']}
+2022-06-06 13:15:34 [scrapy.extensions.telnet] INFO: Telnet Password: 567d16ab36047334
+2022-06-06 13:15:34 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2022-06-06 13:15:34 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-06-06 13:15:34 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-06-06 13:15:34 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-06-06 13:15:34 [scrapy.core.engine] INFO: Spider opened
+2022-06-06 13:15:34 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-06-06 13:15:34 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-06-06 14:50:09 [scrapy.extensions.logstats] INFO: Crawled 3 pages (at 3 pages/min), scraped 0 items (at 0 items/min)
+2022-06-06 14:50:45 [scrapy.extensions.logstats] INFO: Crawled 8 pages (at 5 pages/min), scraped 3 items (at 3 items/min)
+2022-06-06 14:51:36 [scrapy.extensions.logstats] INFO: Crawled 10 pages (at 2 pages/min), scraped 6 items (at 3 items/min)

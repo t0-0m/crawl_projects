@@ -1,0 +1,14 @@
+setup.py
+books_toscrape/__init__.py
+books_toscrape/items.py
+books_toscrape/middlewares.py
+books_toscrape/pipelines.py
+books_toscrape/settings.py
+books_toscrape/spiders/__init__.py
+books_toscrape/spiders/books_basic.py
+books_toscrape/spiders/books_crawl.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt

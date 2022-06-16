@@ -1,0 +1,29 @@
+詳細ページ
+
+* 商品情報のオブジェクト全体
+//div[contains(@class, "product_main")]
+
+* タイトル
+//h1/text()
+
+* 価格
+//p[@class="price_color"]/text()
+
+* 在庫状況
+//p[@class="instock availability"]/text()
+
+* 評価
+//p[contains(@class, "star-rating")]/@class
+
+
+* 詳細情報テーブル全体
+//table
+
+
+* UPC(商品番号)
+//tr[1]/td/text()
+//tr/th[text()= "UPC"]/following-sibling::td[1]/text()
+
+* Number of reviews
+//tr[7]/td/text()
+//tr/th[text()= "Number of reviews"]/following-sibling::td[1]/text()

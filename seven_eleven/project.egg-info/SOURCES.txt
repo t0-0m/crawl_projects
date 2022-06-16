@@ -1,0 +1,17 @@
+setup.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
+seven_eleven/__init__.py
+seven_eleven/items.py
+seven_eleven/middlewares.py
+seven_eleven/pipelines.py
+seven_eleven/settings.py
+seven_eleven/spiders/__init__.py
+seven_eleven/spiders/all_foods.py
+seven_eleven/spiders/onigiri.py
+seven_eleven/spiders/premium_single.py
+seven_eleven/spiders/premiums.py
+seven_eleven/spiders/single_page_foods.py

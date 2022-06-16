@@ -1,0 +1,26 @@
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1
+X-Content-Type-Options: nosniff
+Content-Security-Policy: upgrade-insecure-requests
+Content-Security-Policy-Report-Only: connect-src https:; report-uri https://www.yodobashi.com/ws/api/ap/csp/report
+Cache-Control: no-cache, no-store, post-check=0, pre-check=0
+Pragma: no-cache
+Expires: Thu, 01 Dec 1994 16:00:00 GMT
+Content-Type: text/html;charset=UTF-8
+Vary: Accept-Encoding,User-Agent
+Content-Encoding: gzip
+X-Cnection: close
+X-Akamai-Transformed: 9 48108 0 pmb=mTOE,1mRUM,1
+Date: Fri, 03 Jun 2022 04:44:27 GMT
+Set-Cookie: yuid=07D72354C76B3DA80759D39DA60F470C; Path=/; Secure
+Set-Cookie: yid=07D72354C76B3DA80759D39DA60F470C; Domain=.yodobashi.com; Expires=Wed, 21-Jun-2090 07:58:33 GMT; Path=/; Secure
+Set-Cookie: newses=1; Domain=.yodobashi.com; Expires=Wed, 21-Jun-2090 07:58:33 GMT; Path=/; Secure
+Set-Cookie: uq=ab1c10a6d4497d30b1800c385ee5e14abcbb4b68; Expires=Wed, 21-Jun-2090 07:58:33 GMT; Path=/; Secure
+Set-Cookie: yatpz=C1A2jaAxXZOrw%2BKH41ID1zwqVA%3D%3D; Domain=.yodobashi.com; Expires=Thu, 01-Sep-2022 04:44:26 GMT; Path=/; Secure
+Set-Cookie: google_crmid=""; Domain=.yodobashi.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure
+Set-Cookie: JSESSIONID=3A6B082387F8FC4BBC287882DA52C833; Path=/; Secure; HttpOnly
+Set-Cookie: _abck=AA5FD579A24622CDCF60542024FDC9DD~-1~YAAQf2gDF0l21/eAAQAAeQbhJwfgJgLbdXbZM8a2ktoYF4A1kt06vAHthWqP+BHmxlskEVa7z+vwGJ1GBC3t8iVDpfxrgGt9w9KvUI3w3tTe5nPdnPK/mlOgIXTMKSm54ZRt+u43eNxlL3kkfeFtalu3BqMvydKQ8bNQbm7/r18P/vs+2dY/tjME1FK/uZQ4/FGzrdTUZXSnLVdrCMlyfN72kIl+LVwsn3J+zFQWy6rE6V0emyB6eQmo5qeUm5zxBeTDLap1ULwij6eEYblX6/4Qp0MwotI0JZtyhzUWC4mabx3l/BDQshSleXLy0z1wZu93YGArU1f39dUFau0LUFKLqd94nIZKI2HhG7KexWVPWQxYwqjN+Pjlcqk=~-1~-1~-1; Domain=.yodobashi.com; Path=/; Expires=Sat, 03 Jun 2023 04:44:27 GMT; Max-Age=31536000; Secure
+Set-Cookie: bm_sz=1D86A34EE377F978AD067CCDE925451F~YAAQf2gDF0p21/eAAQAAeQbhJw/nRJpMV7SoeLVxvK+7v1KfrSB49/+/RhVkDKX7ooztUk9cytoYgXM/HPiYcwcYDMw52VvWper01eZQ/gNtjNTk95PtX007TUAKTVGIao2dA6sybB0awOs9ZejLZclYpgvkwqUsWZbxCLjS91yIQo4JkmA1C9aA4sd6LrAKk3+QeDHUHKS3RJq5qbHCDX/aLW+zEe7bUELr1Z0TJlbkh63pCu7CFwO3XAGp6BblILAH/VgF7oKWN5u9Rg04Yy4am3k6CZdjHu2w4BsuxgoXEFnYZ7E=~4277302~3424567; Domain=.yodobashi.com; Path=/; Expires=Fri, 03 Jun 2022 08:44:26 GMT; Max-Age=14399
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: edge; dur=63
+Server-Timing: origin; dur=1556

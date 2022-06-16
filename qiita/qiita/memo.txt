@@ -1,0 +1,23 @@
+
+---
+* トレンド
+Xpath
+//a[@class="st-NewHeader_mainNavigationItem is-active"]/text()
+
+css
+a[class="st-NewHeader_mainNavigationItem is-active"]::text
+
+
+* 記事名
+Xpath 
+//h2/a/text()
+
+css
+h2 > a::text
+
+* URL
+Xpath 
+//h2/a//@href
+
+css
+h2 > a::attr(href)
